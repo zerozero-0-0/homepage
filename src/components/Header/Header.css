@@ -1,4 +1,34 @@
-img {
-  width: 80%;
-  height: 80%;
+.header{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 1200px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 1px 0;
+}
+
+.header .banner {
+  height: 7vh;
+  width:  auto;
+}
+
+.header .access {
+  display: flex;
+  justify-self: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 1vh;
+  padding-right: 1vh;
+}
+
+.header .access img {
+  height: 5vh;
+  width: auto;
+  padding-left: 1vh;
 }

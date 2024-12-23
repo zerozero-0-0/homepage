@@ -16,9 +16,15 @@ const Header = () => {
     <div className="header">
       <img src={Banner} className="banner"/>
       <div className="access">
-        <img src={AtCoder} />
-        <img src={X} />
+        <a href="https://atcoder.jp/users/zerozero_00" target="_blank"> 
+          <img src={AtCoder} /> 
+        </a>
+        <a href="https://x.com/AaWlEw3pl899167" target="_blank">
+          <img src={X} />
+        </a>
+        <a href="https://github.com/zerozero-0-0" target="_blank">
         <img src={github} />
+        </a>
       </div>
     </div>
   );

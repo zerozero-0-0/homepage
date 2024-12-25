@@ -2,28 +2,42 @@ import React from "react";
 
 // import CSS
 import "./Header.css";
- 
 
 // Import the image
-import Banner from '../../assets/Xバナー.png'
-import AtCoder from '../../assets/atcoder-white.png'
-import X from '../../assets/logo-white.png'
-import github from '../../assets/github-mark-white.png'
-
+import Banner from "../../assets/Xバナー.png";
+import AtCoder from "../../assets/atcoder-black.png";
+import X from "../../assets/logo-black.png";
+import github from "../../assets/Github.png";
 
 const Header = () => {
   return (
     <div className="header">
-      <img src={Banner} className="banner"/>
-      <div className="access">
-        <a href="https://atcoder.jp/users/zerozero_00" target="_blank"> 
-          <img src={AtCoder} /> 
+      <div className="banner">
+        <a href="#top" className="banner">
+          <img src={Banner} className="banner" />
         </a>
-        <a href="https://x.com/AaWlEw3pl899167" target="_blank">
+      </div>
+      <div className="access_links">
+        <a
+          href="https://atcoder.jp/users/zerozero_00"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={AtCoder} />
+        </a>
+        <a
+          href="https://x.com/AaWlEw3pl899167"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={X} />
         </a>
-        <a href="https://github.com/zerozero-0-0" target="_blank">
-        <img src={github} />
+        <a
+          href="https://github.com/zerozero-0-0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} />
         </a>
       </div>
     </div>

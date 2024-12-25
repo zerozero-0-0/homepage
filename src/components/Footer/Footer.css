@@ -1,6 +1,9 @@
 .footer {
-  color: white;
-  background-color: black;
   max-width: 1200px;
+  width: 85%;
+  padding: 0.5vh 0;
   margin: 0 auto;
+  text-align: center;
+  border-block: 1px solid #d3d3d3;
+  writing-mode: horizontal-tb;
 }

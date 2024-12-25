@@ -1,34 +1,32 @@
-.header{
-  position: fixed;
-  top: 0;
-  left: 50%;
-  width: 100%;
+.header {
+  height: 7vh;
+  width: 85%;
   max-width: 1200px;
-  transform: translateX(-50%);
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: black;
-  padding: 1px 0;
+  padding-bottom: 1.5vh;
+  border-bottom: 1px solid #d3d3d3;
+  writing-mode: horizontal-tb;
+
 }
+
 
 .header .banner {
   height: 7vh;
   width:  auto;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
-.header .access {
-  display: flex;
-  justify-self: center;
-  position: fixed;
-  top: 0;
+
+.header .access_links {
+  display: inline-block;
   right: 0;
-  padding-top: 2vh;
-  padding-right: 1vh;
 }
 
-.header .access img {
+.header .access_links img {
   height: 4vh;
   width: auto;
-  padding-left: 1vh;
+  margin-left: 1vh;
 }

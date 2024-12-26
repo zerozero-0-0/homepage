@@ -1,17 +1,55 @@
-import React from 'react'
+import React from "react";
 
-import './About.css'
+import "./About.css";
 
 const about = () => {
   return (
-    <div className='about'>
-      <div className='about_me'>
-        <h2> About me</h2>
-        <h2> 自己紹介</h2>
-        
+    <div className="about">
+      <div className="heading">
+      <h2 className="back_font"> About me</h2>
+      <h2 className="front_font"> 自己紹介</h2>
+      </div>
+      <div className="about_me">
+        <div className="contents">
+          私は
+          <a
+            href="https://www.saitama-u.ac.jp/engineering/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="su"
+          >
+            埼玉大学工学部情報工学科
+          </a>
+          に所属しているぜろぜろといいます。
+          <br />
+          Zrzrだったり, zerozeroだったり, zerozero-00だったりします。
+          <br />
+          同学プログラミングサークル{" "}
+          <a
+            href="https://maximum.vc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="atcoder"
+          >
+            Maximum
+          </a>
+          にも所属しています。
+          <br />
+          フロントエンド, バックエンド関わらず幅広く学習をしています。
+          <br />
+          <p>現在は以下の目標のもと活動に取り組んでいます。</p>
+          <ul>
+            <li>AtCoderで入緑(レーティング800以上)になる</li>
+            <li>TOEFL ITPでスコア600以上を獲得する</li>
+            <li>ICPC本選出場</li>
+            <li>Web Speed Hackathon で入賞</li>
+          </ul>
+        </div> 
+      </div>
+      <div className="about_myhistory">
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default about
+export default about;

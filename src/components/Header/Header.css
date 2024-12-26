@@ -8,7 +8,6 @@
   padding-bottom: 1.5vh;
   border-bottom: 1px solid #d3d3d3;
   writing-mode: horizontal-tb;
-
 }
 
 
@@ -21,8 +20,17 @@
 
 
 .header .access_links {
+  max-width: 85%;
   display: inline-block;
-  right: 0;
+  position: absolute;
+  right: 7.5%;
+}
+
+@media (min-width: 1500px) {
+  .header .access_links {
+    right: calc((100vw - 1200px) / 2);
+  }
+  
 }
 
 .header .access_links img {

@@ -2,3 +2,23 @@
   width: 85%;
   margin: 10vh auto 0 auto;
 }
+
+.heading {
+  display: flex;
+  font-size: 20px;
+}
+
+.about .front_font {
+  position: relative;
+}
+
+.about .back_font {
+  opacity: 0.5;
+  position: absolute;
+  transform: translateX(18vh);
+}
+
+
+.contents {
+  margin: 0 2vh;
+}

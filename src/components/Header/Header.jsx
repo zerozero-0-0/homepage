@@ -9,13 +9,17 @@ import AtCoder from "../../assets/atcoder-black.png";
 import X from "../../assets/logo-black.png";
 import github from "../../assets/Github.png";
 
+import menu from "../../assets/menu_000000.png";
 
 const Header = () => {
   return (
     <div className="header">
+      <div className="tab">
+        <img src={menu} alt="" />
+      </div>
       <div className="banner">
-        <a href="#top" className="banner">
-          <img src={Banner} className="banner" />
+        <a href="" className="banner">
+          <img src={Banner} />
         </a>
       </div>
       <div className="access_links">

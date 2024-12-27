@@ -69,6 +69,19 @@ const about = () => {
             <td><img src={ toeic } alt="" /></td>
           </tr>
         </table>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <br />
+        ss
       </div>
     </div>
   );

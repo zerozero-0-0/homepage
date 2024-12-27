@@ -1,31 +1,42 @@
 .header {
-  height: 7vh;
   width: 85%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding-bottom: 1.5vh;
+  padding-bottom: 1vh;
   border-bottom: 1px solid #d3d3d3;
   writing-mode: horizontal-tb;
   position: fixed;
+  top: 1vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: white;
+}
+
+.header .tab img {
+  height: 6vh;
+  width: auto;
+}
+
+.header .banner {
+  position: absolute;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
-
-.header .banner {
+.header .banner img {
   height: 7vh;
   width:  auto;
   border-radius: 4px;
-  margin: 0 auto;
 }
-
 
 .header .access_links {
   max-width: 85%;
   display: inline-block;
-  position: fixed;
+  position: absolute;
   right: 7.5%;
 }
 
@@ -35,3 +46,4 @@
   width: auto;
   margin-left: 1vh;
 }
+

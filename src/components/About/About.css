@@ -1,5 +1,6 @@
 .about {
   width: 85%;
+  max-width: 1200px;
   margin: 10vh auto 0 auto;
 }
 
@@ -15,10 +16,31 @@
 .about .back_font {
   opacity: 0.5;
   position: absolute;
-  transform: translateX(18vh);
+  transform: translateX(10vh);
 }
 
 
 .contents {
   margin: 0 2vh;
+}
+
+.about_myHistory table{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about_myHistory th {
+  background-color: #c0c0c0;
+}
+
+.about_myHistory tr {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_myHistory img {
+  border-radius: 4px;
+  height: 7vh;
+  width: auto;
 }

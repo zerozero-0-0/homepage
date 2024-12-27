@@ -2,6 +2,10 @@ import React from "react";
 
 import "./About.css";
 
+// ---images---
+import Chiba from "../../assets/chiba.png"
+import su from "../../assets/sulogo.png"
+
 const about = () => {
   return (
     <div className="about">
@@ -46,7 +50,19 @@ const about = () => {
           </ul>
         </div> 
       </div>
-      <div className="about_myhistory">
+      <div className="about_myHistory">
+        <table>
+          <tr>
+            <th>2006. 1</th>
+            <td>千葉県に生まれる</td>
+            <td><img src={ Chiba } alt="" /></td>
+          </tr>
+          <tr>
+            <th>2024. 4</th>
+            <td>埼玉大学に入学</td>
+            <td><img src={ su } alt="" /> </td>
+          </tr>
+        </table>
       </div>
     </div>
   );

@@ -1,0 +1,9 @@
+.tab .bottom {
+  position: absolute;
+}
+
+.tab td img {
+  height: 4vh;
+  width: auto;
+  margin-left: 1vh;
+}

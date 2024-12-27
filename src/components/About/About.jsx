@@ -5,6 +5,7 @@ import "./About.css";
 // ---images---
 import Chiba from "../../assets/chiba.png"
 import su from "../../assets/sulogo.png"
+import toeic from "../../assets/TOEIC.png"
 
 const about = () => {
   return (
@@ -58,9 +59,14 @@ const about = () => {
             <td><img src={ Chiba } alt="" /></td>
           </tr>
           <tr>
-            <th>2024. 4</th>
+            <th>2024. 4 </th>
             <td>埼玉大学に入学</td>
             <td><img src={ su } alt="" /> </td>
+          </tr>
+          <tr>
+            <th>2024. 12</th>
+            <td>TOEICスコア 750を獲得</td>
+            <td><img src={ toeic } alt="" /></td>
           </tr>
         </table>
       </div>

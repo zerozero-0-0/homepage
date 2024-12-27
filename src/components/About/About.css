@@ -25,11 +25,13 @@
 }
 
 .about_myHistory table{
-  width: 80%;
+  width: 70%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .about_myHistory th {
+  width: 10vh;
   background-color: #c0c0c0;
 }
 

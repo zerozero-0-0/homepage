@@ -10,18 +10,12 @@ import AtCoder from "../../assets/atcoder-black.png";
 import X from "../../assets/logo-black.png";
 import github from "../../assets/Github.png";
 
-import menu from "../../assets/menu_000000.png";
- // --- tab images ---
-import mail from "../../assets/mail-white.png";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="tab">
-        <img src={menu} alt="" />
-        <div className="tab_contents">
-
-        </div>
+        <Tab />
       </div>
       <div className="banner">
         <a href="" className="banner">

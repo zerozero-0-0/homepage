@@ -1,0 +1,10 @@
+
+.tab .open {
+  width: 24rem;
+  height: 100vh;
+  background-color: gray;
+  opacity: 0.9;
+  position: fixed;
+  top: 5rem;
+  left: -1rem;
+}

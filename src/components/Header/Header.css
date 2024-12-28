@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 1vh;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #d3d3d3;
   writing-mode: horizontal-tb;
   position: fixed;
@@ -42,13 +42,13 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  transform: translateX(3vw);
+  transform: translateX(2.6rem);
 }
 
 
 .header .access_links img {
   height: 2.4rem;
   width: auto;
-  margin-left: 1vh;
+  margin-left: 0.6rem;
 }
 

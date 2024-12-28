@@ -1,5 +1,6 @@
 import React from "react";
 
+import Tab from "../Tab/Tab";
 // import CSS
 import "./Header.css";
 
@@ -10,12 +11,17 @@ import X from "../../assets/logo-black.png";
 import github from "../../assets/Github.png";
 
 import menu from "../../assets/menu_000000.png";
+ // --- tab images ---
+import mail from "../../assets/mail-white.png";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="tab">
         <img src={menu} alt="" />
+        <div className="tab_contents">
+
+        </div>
       </div>
       <div className="banner">
         <a href="" className="banner">

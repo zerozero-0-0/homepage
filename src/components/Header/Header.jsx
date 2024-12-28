@@ -5,7 +5,7 @@ import Tab from "../Tab/Tab";
 import "./Header.css";
 
 // Import the image
-import Banner from "../../assets/Xバナー.png";
+import Banner from "../../assets/X_icon.png";
 import AtCoder from "../../assets/atcoder-black.png";
 import X from "../../assets/logo-black.png";
 import github from "../../assets/Github.png";

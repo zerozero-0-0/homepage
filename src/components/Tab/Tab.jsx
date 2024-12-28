@@ -9,6 +9,7 @@ import webImg from "../../assets/desktop.png";
 import contestImg from "../../assets/keyboard.png";
 import mailImg from "../../assets/mail-white.png";
 
+import { Link } from "react-router";
 const Tab = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,7 +29,9 @@ const Tab = () => {
               <td>
                 <IoMdPerson />
               </td>
-              <td>Introduction</td>
+              <td>
+                <Link to="/">Introduction</Link>
+              </td>
             </tr>
             <tr>
               <td>

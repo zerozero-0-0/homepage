@@ -1,6 +1,6 @@
 .about {
   width: 85%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 10vh auto 0 auto;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .about_myHistory th {
-  width: 10vh;
+  width: 10rem;
   background-color: #c0c0c0;
 }
 
@@ -43,6 +43,6 @@
 
 .about_myHistory img {
   border-radius: 4px;
-  height: 7vh;
+  height: 5rem;
   width: auto;
 }

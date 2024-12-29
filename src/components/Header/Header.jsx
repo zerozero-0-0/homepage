@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <div className="banner">
         <a href="" className="banner">
-          <img src={Banner} />
+          <img src={ Banner } />
         </a>
       </div>
       <div className="access_links">
@@ -27,7 +27,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={AtCoder} className="make_blue"/>
+          <img src={ AtCoder } />
         </a>
         <a
           href="https://x.com/AaWlEw3pl899167"

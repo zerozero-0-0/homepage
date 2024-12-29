@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router";
 import "./Tab.css";
 import menu from "../../assets/menu_000000.png";
+
 
 import { IoMdPerson } from "react-icons/io";
 import { MdUpdate } from "react-icons/md";
@@ -24,36 +26,47 @@ const Tab = () => {
         {isOpen && (
           <div>
             <div className="box"></div>
+            <div className="menu_title">メニュー</div>
             <table>
               <tr>
                 <td>
                   <IoMdPerson size={"4rem"} />
                 </td>
-                <td>About</td>
+                <td>
+                  <Link to="/">About</Link>
+                </td>
               </tr>
               <tr>
                 <td>
                   <MdUpdate size={"4rem"} />
                 </td>
-                <td>Update</td>
+                <td>
+                  <Link to="/update">Update</Link>
+                </td>
               </tr>
               <tr>
                 <td>
                   <MdOutlineMonitor size={"4rem"} />
                 </td>
-                <td>Web</td>
+                <td>
+                  <Link to="/web">Web</Link>
+                </td>
               </tr>
               <tr>
                 <td>
                   <FaKeyboard size={"4rem"} />
                 </td>
-                <td>Contest</td>
+                <td>
+                  <Link to="/contest">Contest</Link>
+                </td>
               </tr>
               <tr>
                 <td>
                   <CiMail size={"4rem"} />
                 </td>
-                <td>Contact</td>
+                <td>
+                  <Link to="/contact">Contact</Link>
+                </td>
               </tr>
             </table>
           </div>

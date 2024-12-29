@@ -10,7 +10,14 @@
 }
 
 .tab .box{
-  height: 8rem;
+  height: 7rem;
+  width: 100%;
+}
+
+.tab .menu_title {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
 }
 
 .tab table {

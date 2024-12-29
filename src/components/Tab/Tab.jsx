@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-
 import "./Tab.css";
 import menu from "../../assets/menu_000000.png";
 
 import { IoMdPerson } from "react-icons/io";
-import updateImg from "../../assets/update.png";
-import webImg from "../../assets/desktop.png";
-import contestImg from "../../assets/keyboard.png";
-import mailImg from "../../assets/mail-white.png";
+import { MdUpdate } from "react-icons/md";
+import { MdOutlineMonitor } from "react-icons/md";
+import { FaKeyboard } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
-import { Link } from "react-router";
 const Tab = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,40 +22,41 @@ const Tab = () => {
       </div>
       <div className={`contents ${isOpen ? "open" : ""}`}>
         {isOpen && (
-          <table>
-            <tr>
-              <td>
-                <IoMdPerson />
-              </td>
-              <td>
-                <Link to="/">Introduction</Link>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src={updateImg} alt="" />
-              </td>
-              <td>Update</td>
-            </tr>
-            <tr>
-              <td>
-                <img src={webImg} alt="" />
-              </td>
-              <td>Web</td>
-            </tr>
-            <tr>
-              <td>
-                <span className="material-symbols-outlined">keyboard</span>
-              </td>
-              <td>Contest</td>
-            </tr>
-            <tr>
-              <td>
-                <img src={mailImg} alt="" />
-              </td>
-              <td>Contact</td>
-            </tr>
-          </table>
+          <div>
+            <div className="box"></div>
+            <table>
+              <tr>
+                <td>
+                  <IoMdPerson size={"4rem"} />
+                </td>
+                <td>About</td>
+              </tr>
+              <tr>
+                <td>
+                  <MdUpdate size={"4rem"} />
+                </td>
+                <td>Update</td>
+              </tr>
+              <tr>
+                <td>
+                  <MdOutlineMonitor size={"4rem"} />
+                </td>
+                <td>Web</td>
+              </tr>
+              <tr>
+                <td>
+                  <FaKeyboard size={"4rem"} />
+                </td>
+                <td>Contest</td>
+              </tr>
+              <tr>
+                <td>
+                  <CiMail size={"4rem"} />
+                </td>
+                <td>Contact</td>
+              </tr>
+            </table>
+          </div>
         )}
       </div>
     </div>

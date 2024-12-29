@@ -1,10 +1,32 @@
 
 .tab .open {
-  width: 24rem;
+  width: 16rem;
   height: 100vh;
-  background-color: gray;
-  opacity: 0.9;
   position: fixed;
-  top: 5rem;
-  left: -1rem;
+  top:  5.05rem;
+  left: -1.2rem;
+  background-color: #fffaf0;
+  border-right: 3px solid #faebd7;
+}
+
+.tab .box{
+  height: 8rem;
+}
+
+.tab table {
+  border-top: 0.2rem solid #faebd7;
+  border-bottom: 0.2rem solid #faebd7;
+  margin: 0 auto;
+}
+
+.tab tr {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+.tab td {
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
 }

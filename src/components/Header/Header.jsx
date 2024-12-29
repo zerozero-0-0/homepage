@@ -7,9 +7,8 @@ import "./Header.css";
 // Import the image
 import Banner from "../../assets/X_icon.png";
 import AtCoder from "../../assets/atcoder-black.png";
-import X from "../../assets/logo-black.png";
-import github from "../../assets/Github.png";
-
+import { BsTwitterX } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -28,22 +27,22 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={AtCoder} />
+          <img src={AtCoder} className="make_blue"/>
         </a>
         <a
           href="https://x.com/AaWlEw3pl899167"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={X} />
+          <BsTwitterX size={"2.7rem"} />
         </a>
         <a
           href="https://github.com/zerozero-0-0"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={github} />
-        </a>
+          <FaGithub size={"2.7rem"} />
+       </a>
       </div>
     </div>
   );

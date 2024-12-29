@@ -1,3 +1,6 @@
+.tab .tab_menu:hover {
+  opacity: 0.8;
+}
 
 .tab .open {
   width: 16rem;
@@ -36,4 +39,5 @@
 .tab td {
   padding-right: 1rem;
   padding-bottom: 0.75rem;
+  color: black;
 }

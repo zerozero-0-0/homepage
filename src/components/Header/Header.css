@@ -52,3 +52,15 @@
   margin-left: 0.6rem;
 }
 
+.header a {
+  color: black;
+}
+
+.header img:hover{
+  color: blue;
+}
+
+.header a:hover {
+  color: blue;
+}
+

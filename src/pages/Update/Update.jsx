@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Update.css'
 const Update = () => {
   return (
-    <div>Update</div>
+    <div className='update'>Coming Soon...</div>
   )
 }
 

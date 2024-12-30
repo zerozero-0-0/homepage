@@ -2,7 +2,6 @@
   width: 85%;
   max-width: 1000px;
   margin: 10vh auto 0 auto;
-  
 }
 
 .heading {
@@ -20,6 +19,13 @@
   transform: translateX(10vh);
 }
 
+.about a {
+  color: black;
+}
+
+.about a:hover {
+  color: blue;
+}
 
 .contents {
   margin: 0 2vh;
@@ -36,7 +42,7 @@
 }
 
 .about_myHistory th {
-  width: 10rem;
+  width: 8rem;
   background-color: #c0c0c0;
 }
 

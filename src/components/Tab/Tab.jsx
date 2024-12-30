@@ -3,9 +3,9 @@ import { Link } from "react-router";
 import "./Tab.css";
 import menu from "../../assets/menu_000000.png";
 
-
 import { IoMdPerson } from "react-icons/io";
 import { MdUpdate } from "react-icons/md";
+import { IoIosCode } from "react-icons/io";
 import { MdOutlineMonitor } from "react-icons/md";
 import { FaKeyboard } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -42,6 +42,14 @@ const Tab = () => {
                 </td>
                 <td>
                   <Link to="/update">Update</Link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <IoIosCode size={"4rem"} />
+                </td>
+                <td>
+                  <Link to="/dev">Dev</Link>
                 </td>
               </tr>
               <tr>

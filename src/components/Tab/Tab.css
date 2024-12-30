@@ -1,4 +1,9 @@
-.tab .tab_menu:hover {
+.tab .tab_menu img {
+  transition: transform 0.3s;
+}
+
+.tab .tab_menu img:hover {
+  transform: rotate(180deg);
   opacity: 0.8;
 }
 

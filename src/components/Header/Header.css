@@ -52,12 +52,21 @@
   margin-left: 0.6rem;
 }
 
+
+.header .access_links a {
+  transition: 0.15s;
+}
+
 .header .access_links a:hover {
   filter: brightness(0) saturate(100%) invert(6%) sepia(100%) saturate(6162%) hue-rotate(246deg) brightness(138%) contrast(142%);
 }
 
 .header a {
   color: black;
+}
+
+.header .tab a {
+  transition: 0.2s;
 }
 
 .header .tab a:hover{

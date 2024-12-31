@@ -30,7 +30,7 @@ const Tab = () => {
             <table>
               <tr>
                 <td>
-                  <IoMdPerson size={"4rem"} />
+                  <IoMdPerson size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/" onClick={GetMenuOpen}>About</Link>
@@ -38,7 +38,7 @@ const Tab = () => {
               </tr>
               <tr>
                 <td>
-                  <MdUpdate size={"4rem"} />
+                  <MdUpdate size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/update" onClick={GetMenuOpen}>Update</Link>
@@ -46,7 +46,7 @@ const Tab = () => {
               </tr>
               <tr>
                 <td>
-                  <IoIosCode size={"4rem"} />
+                  <IoIosCode size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/dev" onClick={GetMenuOpen}>Dev</Link>
@@ -54,7 +54,7 @@ const Tab = () => {
               </tr>
               <tr>
                 <td>
-                  <MdOutlineMonitor size={"4rem"} />
+                  <MdOutlineMonitor size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/web" onClick={GetMenuOpen}>Web</Link>
@@ -62,7 +62,7 @@ const Tab = () => {
               </tr>
               <tr>
                 <td>
-                  <FaKeyboard size={"4rem"} />
+                  <FaKeyboard size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/contest" onClick={GetMenuOpen}>Contest</Link>
@@ -70,7 +70,7 @@ const Tab = () => {
               </tr>
               <tr>
                 <td>
-                  <CiMail size={"4rem"} />
+                  <CiMail size={"3rem"} />
                 </td>
                 <td>
                   <Link to="/contact" onClick={GetMenuOpen}>Contact</Link>

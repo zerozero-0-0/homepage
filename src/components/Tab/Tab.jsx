@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router";
 import "./Tab.css";
 import menu from "../../assets/menu_000000.png";
@@ -12,13 +12,27 @@ import { CiMail } from "react-icons/ci";
 
 const Tab = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const tabRef = useRef(null);
 
   const GetMenuOpen = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClickOutside = (event) => {
+    if (tabRef.current && !tabRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="tab">
+    <div className="tab" ref={tabRef}>
       <div className="tab_menu">
         <img src={menu} alt="" onClick={GetMenuOpen} />
       </div>

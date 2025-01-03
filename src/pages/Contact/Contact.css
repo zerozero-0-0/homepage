@@ -3,3 +3,18 @@
   max-width: 1000px;
   margin: 10vh auto 0 auto;
 }
+
+.heading {
+  display: flex;
+  font-size: 20px;
+}
+
+.contact .front_font {
+  position: relative;
+}
+
+.contact .back_font {
+  opacity: 0.5;
+  position: absolute;
+  transform: translateX(10.5rem);
+}

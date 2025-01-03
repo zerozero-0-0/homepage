@@ -16,7 +16,7 @@
 .about .back_font {
   opacity: 0.5;
   position: absolute;
-  transform: translateX(10vh);
+  transform: translateX(6.8rem);
 }
 
 .about a {

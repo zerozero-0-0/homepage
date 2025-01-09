@@ -34,7 +34,7 @@ const Tab = () => {
   return (
     <div className="tab" ref={tabRef}>
       <div className="tab_menu">
-        <img src={menu} alt="" onClick={GetMenuOpen} />
+      <img src={menu} alt="" onClick={GetMenuOpen} />
       </div>
       <div className={`contents ${isOpen ? "open" : ""}`}>
         {isOpen && (

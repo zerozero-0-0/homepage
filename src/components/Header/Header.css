@@ -24,20 +24,23 @@
 
 .header .tab img {
   height: 4rem;
-  width: auto;
+  width: 4rem;
 }
 
 .header .banner {
+  height: 4rem;
+  width: auto;
   flex: 1;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
 }
 
-.header .banner img {
+/*.header .banner img {
   height: 4rem;
   width:  auto;
   border-radius: 4px;
-}
+}*/
 
 .header .access_links {
   flex: 1;

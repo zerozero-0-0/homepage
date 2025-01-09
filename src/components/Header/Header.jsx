@@ -48,10 +48,8 @@ const Header = () => {
       <div className="tab">
         <Tab />
       </div>
-      <div className="banner">
-        <a href="" className="banner">
-          <img src={ Banner } />
-        </a>
+      <div>
+          <img src={ Banner } className="banner"/>
       </div>
       <div className="access_links">
         <a

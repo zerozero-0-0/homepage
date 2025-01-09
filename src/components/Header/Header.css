@@ -43,14 +43,13 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  transform: translateX(2.6rem);
+  transform: translateX(2.7rem);
 }
 
 
 .header .access_links img {
   height: 2.7rem;
   width: auto;
-  margin-left: 0.6rem;
 }
 
 

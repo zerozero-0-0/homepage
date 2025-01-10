@@ -4,6 +4,22 @@
   margin: 10vh auto 0 auto;
 }
 
+.web .heading {
+  display: flex;
+  font-size: 20px;
+}
+
+.web .front_font {
+  position: relative;
+}
+
+.web .back_font {
+  opacity: 0.5;
+  position: absolute;
+  transform: translateX(4.8rem);
+}
+
+
 .container {
   display: flex;
   flex-wrap: wrap;

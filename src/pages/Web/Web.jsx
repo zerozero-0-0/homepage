@@ -15,6 +15,10 @@ const Web = () => {
 
   return (
     <div className="web">
+      <div className="heading">
+        <h2 className="back_font"> Web</h2>
+        <h2 className="front_font"> ウェブ</h2>
+      </div>
       <p>ウェブ関連の技術について書いていく予定です．</p>
       <div className="container">
         {links.map((link, index) => (

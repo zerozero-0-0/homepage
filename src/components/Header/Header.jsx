@@ -34,7 +34,7 @@ const Header = () => {
 
   useEffect(() => {
     const focusableElements = headerRef.current.querySelectorAll(
-      'a'
+      'a', '.tab'
     );
     focusableElementsRef.current = Array.from(focusableElements);
     document.addEventListener("keydown", handleKeyDown);
